@@ -1,16 +1,25 @@
 /* your code here */
+h3{
+	font-weight: lighter;
+	text-decoration: underline;
+	text-underline-offset: 10px;
+}
+
 .top{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(27, 25, 25);
     color: white;
+	height: 90px;
 }
 .link-boxes{
     display: flex;
     justify-content: space-around;
     background-color: rgb(27, 25, 25);
     color: white;
+	font-size: 15px;
+	height: 250px;
 }
 p{
     margin: 15px;
@@ -21,6 +30,7 @@ p{
     background-color: #444444;
     color: white;
 	font-size: 12.5px;
+	padding: 2px 6px;
 }
 a{
     text-decoration: none;
