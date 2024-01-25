@@ -18,8 +18,9 @@ p{
 .bottom-details{
     display: flex;
     justify-content: space-between;
-    background-color: lightgray;
-    color: black;
+    background-color: #444444;
+    color: white;
+	font-size: 12.5px;
 }
 a{
     text-decoration: none;
@@ -33,11 +34,11 @@ img{
     padding: 5px;
 }
 .logo_name{
-    font-weight: bolder;
     font-size: 40px;
-    margin: 5px;
+    margin: 15px;
     padding: 5px;
 }
 .media-icons{
 	display: flex;
+    padding: 5px;
 }
